@@ -6,7 +6,8 @@ namespace Open_Lab_05._01
     {
         public string Century(int year)
         {
-            throw new NotImplementedException();
+            var storocie = Century(year / 100) + 1;
+            return storocie;
         }
     }
 }
